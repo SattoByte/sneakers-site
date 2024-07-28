@@ -1,15 +1,22 @@
-import Card from './components/Card';
+import React from 'react';
+import Card from './components/card/Card';
 import Header from './components/Header';
 import Drawer from './components/Drawer';
+import { useState } from 'react';
 
 
 function App() {
+  const arr = [1, 2, 3, 4];
+
+  const [cardOpened, setCardOpened] = React.useState(false);
+
 
   return (
     <div className="wrapper clear">
 
-      <Drawer />
-      <Header />
+
+      {cardOpened && <Drawer onClose={() => setCardOpened(false)} />}
+      <Header onCLickCard={() => setCardOpened(true)} />
 
       <div className="content p-40">
         <div className="d-flex align-center justify-between mb-40" >
@@ -19,9 +26,18 @@ function App() {
             <input placeholder="Search..." />
           </div>
         </div>
+        <div className="d-flex">
 
-        <div className="justify-between flex-wrap d-flex">
-          <Card />
+          {arr.map((obj) => (
+
+            <Card
+              title={obj.title}
+              price={obj.title}
+              image={obj.imageUrl}
+              onFavorite={() => console.log('added to favs')}
+              onPlus={() => console.log('Plus clicked')}
+            />
+          ))}
         </div>
       </div>
     </div>
