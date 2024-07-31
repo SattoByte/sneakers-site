@@ -8,6 +8,7 @@ function App() {
   const [searchValue, setSearchValue] = useState('')
   const [cardOpened, setCardOpened] = React.useState(false);
   const [cardItems, setCardItems] = useState([])
+  const [favorites, setFavorites] = useState([])
 
   const onAddToCard = (obj) => {
     setCardItems((prev) => [...cardItems, obj]);
@@ -16,6 +17,12 @@ function App() {
   const onChangeSearchInput = (event) => {
     setSearchValue(event.target.value)
   }
+
+  const onAddToFavorites = () => {
+
+  }
+
+
   return (
     <div className="wrapper clear">
       {cardOpened && <Drawer items={cardItems} onClose={() => setCardOpened(false)} />}
@@ -31,7 +38,7 @@ function App() {
             <input value={searchValue} onChange={onChangeSearchInput} placeholder="Search..." />
           </div>
         </div>
-        <div className="flex-wrap d-flex">
+        <div className="justify-between flex-wrap d-flex">
 
           {data
             .filter((item) => item.title.toLowerCase().includes(searchValue))
@@ -39,7 +46,7 @@ function App() {
               <Card
                 key={indx}
                 title={item.title}
-                price={item.price}
+                price={item.price + '$'}
                 imageUrl={item.imageUrl}
                 onFavorite={() => console.log('added to favs')}
                 onPlus={(obj) => onAddToCard(obj)}

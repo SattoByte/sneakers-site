@@ -13,13 +13,16 @@ const Header = (props) => {
         </div>
       </div>
       <ul className="d-flex">
-        <li onClick={props.onCLickCard} className="mr-30 cu-p">
+        <li onClick={props.onCLickCard} className="mr-10 cu-p">
           <img width={18} height={18} src="/img/cart.svg" alt="" />
-          <span>200$</span>
+        </li>
+        <li>
+          <img width={18} height={18} src="img/heart.svg" alt="Закладки" />
         </li>
         <li>
           <img width={18} height={18} src="/img/user.svg" alt="" />
         </li>
+        <span>200$</span>
       </ul>
     </header>
 

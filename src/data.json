@@ -1,74 +1,74 @@
 [
   {
     "id": 1,
-    "title": "Мужские Кроссовки Nike Blazer Mid Suede",
-    "price": 12999,
+    "title": "Nike Blazer Mid Suede",
+    "price": 160,
     "imageUrl": "/img/sneakers/1.jpg"
   },
   {
     "id": 2,
-    "title": "Мужские Кроссовки Nike Air Max 270",
-    "price": 15600,
+    "title": "Nike Air Max 270",
+    "price": 205,
     "imageUrl": "/img/sneakers/2.jpg"
   },
   {
     "id": 3,
-    "title": "Мужские Кроссовки Nike Blazer Mid Suede",
-    "price": 8499,
+    "title": "Nike Blazer Mid Suede",
+    "price": 120,
     "imageUrl": "/img/sneakers/3.jpg"
   },
   {
     "id": 4,
-    "title": "Кроссовки Puma X Aka Boku Future Rider",
-    "price": 7800,
+    "title": "Puma X Aka Boku Future Rider",
+    "price": 245,
     "imageUrl": "/img/sneakers/4.jpg"
   },
   {
     "id": 5,
-    "title": "Кроссовки Future Rider",
-    "price": 9550,
+    "title": "Future Rider",
+    "price": 185,
     "imageUrl": "/img/sneakers/5.jpg"
   },
   {
     "id": 6,
-    "title": "Кроссовки Black Edition",
-    "price": 16999,
+    "title": "Black Edition",
+    "price": 284,
     "imageUrl": "/img/sneakers/6.jpg"
   },
   {
     "id": 7,
-    "title": "Кроссовки Orange Boomb Edition",
-    "price": 7499,
+    "title": "Orange Boomb Edition",
+    "price": 230,
     "imageUrl": "/img/sneakers/7.jpg"
   },
   {
     "id": 8,
-    "title": "Кроссовки Nike Air Max 270",
-    "price": 15600,
+    "title": "Nike Air Max 270",
+    "price": 150,
     "imageUrl": "/img/sneakers/8.jpg"
   },
   {
     "id": 9,
-    "title": "Кроссовки Nike Air Force 1",
-    "price": 5900,
+    "title": "Nike Air Force 1",
+    "price": 85,
     "imageUrl": "/img/sneakers/9.jpg"
   },
   {
     "id": 10,
-    "title": "Кроссовки Adidas Ultraboost",
-    "price": 11500,
+    "title": "Adidas Ultraboost",
+    "price": 165,
     "imageUrl": "/img/sneakers/10.jpg"
   },
   {
     "id": 11,
-    "title": "Кроссовки Puma Clyde All-Pro",
-    "price": 7600,
+    "title": "Puma Clyde All-Pro",
+    "price": 100,
     "imageUrl": "/img/sneakers/11.jpg"
   },
   {
     "id": 12,
-    "title": "Кроссовки Converse Chuck Taylor All-Star",
-    "price": 13000,
+    "title": "Converse Chuck Taylor All-Star",
+    "price": 187,
     "imageUrl": "/img/sneakers/12.jpg"
   }
 ]

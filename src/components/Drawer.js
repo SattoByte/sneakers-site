@@ -6,11 +6,14 @@ const Drawer = ({ onClose, items = [] }) => {
   return (
 
     <div
+      onClick={onClose}
       className="overlay">
       <div className="drawer">
         <h2 className="justify-between d-flex mb-30">Cart {' '}
           <img onClick={onClose} className="removeBtn" src="/img/btn_remove.svg" alt="Remove" />
         </h2>
+
+
 
         <div className="items" >
           {items.map((obj) => (
