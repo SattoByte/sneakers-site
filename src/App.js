@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Card from './components/card/Card';
 import Header from './components/Header';
 import Drawer from './components/Drawer';
@@ -8,7 +8,7 @@ function App() {
   const [searchValue, setSearchValue] = useState('')
   const [cardOpened, setCardOpened] = React.useState(false);
   const [cardItems, setCardItems] = useState([])
-  const [favorites, setFavorites] = useState([])
+  // const [favorites, setFavorites] = useState([])
 
   const onAddToCard = (obj) => {
     setCardItems((prev) => [...cardItems, obj]);
@@ -18,9 +18,7 @@ function App() {
     setSearchValue(event.target.value)
   }
 
-  const onAddToFavorites = () => {
 
-  }
 
 
   return (
